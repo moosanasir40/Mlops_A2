@@ -3,5 +3,5 @@ print ("Hello World")
 def hello():
     return "Hello from Azure!"
 @app.route("/broken")
-def broken()   # <-- Notice the missing colon ':' here
+def broken():
     return "Oops!"
